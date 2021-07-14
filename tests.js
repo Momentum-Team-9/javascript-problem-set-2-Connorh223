@@ -87,7 +87,7 @@ describe('minimum', function () {
     assert.equal(1, minimum([2, 1, 3]))
     assert.equal(-4, minimum([7, 31, -4, 2]))
   })
-})
+}) 
 
 describe('selectionSort', function () {
   it('returns an empty array for an empty array', function () {
